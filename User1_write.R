@@ -1,6 +1,6 @@
 
 
-fileConn<-file("/test_mosaic/G1/data_wrire.txt")
+fileConn<-file("/test_mosaic/G1/user2_write_success.txt")
 writeLines(c("Hello","World"), fileConn)
 close(fileConn)
 
