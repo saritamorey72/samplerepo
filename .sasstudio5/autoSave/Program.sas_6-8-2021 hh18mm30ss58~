@@ -1,0 +1,2 @@
+proc export data=sashelp.class
+outfile="/data/text_file.txt"
