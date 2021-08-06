@@ -1,2 +1,3 @@
 proc export data=sashelp.class
-outfile="/data/text_file.txt"
+outfile="/test_mosaic/G2/text_file.txt"
+
