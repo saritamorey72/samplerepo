@@ -1,5 +1,5 @@
-proc export data=sashelp.class
-outfile="/test_mosaic/G3/manual_text_file.txt"
+//proc export data=sashelp.class
+//outfile="/test_mosaic/G3/manual_text_file.txt"
 dbms=tab;
 run;
 
