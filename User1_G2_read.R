@@ -1,3 +1,3 @@
-fileConn<-file("/test_mosaic/G2/data_write.txt")
-readLines(("/test_mosaic/G2/data_write.txt"), fileConn)
+fileConn<-file("/test_mosaic/G2/write.txt")
+readLines(("/test_mosaic/G2/write.txt"), fileConn)
 close(fileConn)
