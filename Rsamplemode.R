@@ -53,8 +53,14 @@ predict_prob <- predict(fit, Test, type="prob")
 value <- register_model(
   fit,
   score,
-  name="Titanicruntestv1",
+  name="ASHISH_TEST_BTM",
   description="R Model",
   flavour="r",
   input_type="file",
-  )
+  y_true=y_true,
+  y_pred=y_pred,
+  prob=predict_prob,
+  labels=list("survived","not-survived"),
+  model_type="classification",
+)
+
