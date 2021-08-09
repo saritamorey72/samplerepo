@@ -7,3 +7,6 @@ proc import datafile="/test_mosaic/G2/U1run_text_file.txt" out=mydata dbms=dlm r
    delimiter='09'x;
    getnames=yes;
 run;
+
+proc print data=mydata;
+run;
