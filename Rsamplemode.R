@@ -7,7 +7,7 @@ data.frame = select(data.frame, Survived, Pclass, Age, Sex, SibSp, Parch)
 data.frame = na.omit(data.frame)
 data.frame$Survived = factor(data.frame$Survived)
 data.frame$Pclass = factor(data.frame$Pclass, order=TRUE, levels = c(3, 2, 1))
-
+print('sam')
 
 #split dataset
 library(caTools)
